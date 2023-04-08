@@ -1,0 +1,70 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #7b6654;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #7b6654;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #6b5549;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+/* Style the columns */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Style the images */
+.column img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    text-align: center;
+    padding: 5px 0;
+}
